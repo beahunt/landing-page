@@ -26,21 +26,29 @@ body {
 .text-vertical-center h1 {
     margin: 0;
     padding: 0;
-    font-size: 4.5em;
+    font-size: 6.5em;
     font-weight: 700;
 }
 
 .bg-primary {
     color: #fff;
-    background-color: #18458E;
+    background-color: #2344A3;
 }
 
 .text-primary {
-    color: #18458E;
+    color: #2344A3;
+}
+
+h3 {
+    font-size: 3em;
 }
 
 h4 {
     font-size: 24px;
+}
+
+.description {
+    font-size: 20px;
 }
 
 /* Custom Button Styles */
@@ -48,14 +56,14 @@ h4 {
 .btn-dark {
     border-radius: 0;
     color: #fff;
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgba(0,0,0,0.5);
 }
 
 .btn-dark:hover,
 .btn-dark:focus,
 .btn-dark:active {
     color: #fff;
-    background-color: rgba(0,0,0,0.7);
+    background-color: rgba(0,0,0,0.8);
 }
 
 .btn-light {
@@ -170,10 +178,21 @@ hr.small {
     width: 100%;
     height: 100%;
     background:  no-repeat top center scroll; /* url(../img/bg2.jpg) */
+    background-color: #E1E6F9;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+
+.header-title {
+    font-family: 'Bree Serif', serif;
+    color: #241117;
+}
+
+.header-text {
+    font-family: 'Montserrat', sans-serif;
+    color: #2344A3;
 }
 
 /* About */
@@ -227,11 +246,17 @@ hr.small {
 /* Call to Action */
 
 .call-to-action {
+    background-color: #E1E6F9;
     padding: 50px 0;
 }
 
 .call-to-action .btn {
     margin: 10px;
+}
+
+.call-to-action-text {
+    font-family: 'Montserrat', sans-serif;
+    color: #2344A3;
 }
 
 /* Map */
@@ -250,4 +275,8 @@ hr.small {
 
 footer {
     padding: 100px 0;
+}
+
+.footer-text {
+    font-size: 20px;
 }
